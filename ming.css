@@ -1,0 +1,27 @@
+html {
+  font: 16px Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#display {
+  margin: 2rem 0;
+  font-size: 500%;
+}
+
+#button {
+  background: #222;
+  background: linear-gradient(to bottom, #333 0%, #111 100%);
+  padding: 1rem;
+  border: none;
+  color: #fff;
+  font: 16px Helvetica, Arial, sans-serif;
+}
+
+#button:hover {
+  background: linear-gradient(to bottom, #444 0%, #111 100%);
+}
+
+#button:active {
+  background: linear-gradient(to bottom, #000 0%, #222 100%);
+  padding: 1.05rem 1rem 0.95rem;
+}
