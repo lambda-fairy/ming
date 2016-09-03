@@ -14,7 +14,7 @@ Ming.prototype.increment = function () {
 };
 
 Ming.prototype.update = function () {
-  this.display.innerHTML = this.number;
+  this.display.textContent = this.number;
 };
 
 document.addEventListener('DOMContentLoaded', function (e) {
